@@ -1,15 +1,8 @@
 package com.Foundry.pokeGateway.pokemon;
 
-public class PokemonFormType {
+public class PokemonType {
     private int slot;
-
-    public int getSlot() {
-        return slot;
-    }
-
-    public void setSlot(int slot) {
-        this.slot = slot;
-    }
+    private NamedAPIResource type;
 
     public NamedAPIResource getType() {
         return type;
@@ -19,5 +12,11 @@ public class PokemonFormType {
         this.type = type;
     }
 
-    private NamedAPIResource type;
+    public int getSlot() {
+        return slot;
+    }
+
+    public void setSlot(int slot) {
+        this.slot = slot;
+    }
 }

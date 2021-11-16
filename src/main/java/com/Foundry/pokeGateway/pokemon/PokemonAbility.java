@@ -3,7 +3,7 @@ package com.Foundry.pokeGateway.pokemon;
 public class PokemonAbility {
     private boolean is_hidden;
     private int slot;
-    private Ability ablity;
+    private NamedAPIResource ability;
 
     public boolean isIs_hidden() {
         return is_hidden;
@@ -21,11 +21,11 @@ public class PokemonAbility {
         this.slot = slot;
     }
 
-    public Ability getAblity() {
-        return ablity;
+    public NamedAPIResource getAbility() {
+        return ability;
     }
 
-    public void setAblity(Ability ablity) {
-        this.ablity = ablity;
+    public void setAbility(NamedAPIResource ability) {
+        this.ability = ability;
     }
 }
